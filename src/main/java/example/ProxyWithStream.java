@@ -68,7 +68,7 @@ public class ProxyWithStream implements RequestStreamHandler {
                 }
             }
 
-            String greeting = "Good " + time + ", " + name + " of " + city + ". ";
+            String greeting = "Good " + time + ", " + name + " of " + city + "! ";
             if (day!=null && day != "") greeting += "Happy " + day + "!";
 
 
